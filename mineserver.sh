@@ -46,7 +46,7 @@ function main(){
 						mv orignal.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 2)); then
 						echo -e "Installing Vanilla MineCraft Server"
@@ -66,7 +66,7 @@ function main(){
 						mv spigot.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 4)); then
 						echo -e "Installing CraftBukkit MineCraft Server"
@@ -76,7 +76,7 @@ function main(){
 						mv craftbukkit.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					else 
 						echo -e "\n\n Wrong Choice!!! Start Again"
@@ -102,7 +102,7 @@ function main(){
 						mv orignal.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 2)); then
 						echo -e "Installing Vanilla MineCraft Server"
@@ -113,7 +113,7 @@ function main(){
 						mv vanilla.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 3)); then
 						echo -e "Installing Spigot MineCraft Server"
@@ -124,7 +124,7 @@ function main(){
 						mv spigot.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 4)); then
 						echo -e "Installing CraftBukkit MineCraft Server"
@@ -135,7 +135,7 @@ function main(){
 						mv craftbukkit.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar
 						break
 					else 
 						echo -e "\n\n Wrong Choice!!! Start Again"
