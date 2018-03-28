@@ -56,7 +56,7 @@ function main(){
 						mv vanilla.jar server.jar
 						echo -e "java -jar server.jar" >> start.sh
 						chmod +x start.sh
-						java -jar server.jar --nogui
+						java -jar server.jar 
 						break
 					elif (($i == 3)); then
 						echo -e "Installing Spigot MineCraft Server"
