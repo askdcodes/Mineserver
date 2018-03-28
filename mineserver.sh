@@ -91,7 +91,6 @@ function main(){
 					echo -e "2. Vanilla MineCraft Server"
 					echo -e "3. Spigot MineCraft Server"
 					echo -e "4. CraftBukkit MineCraft Server"
-					echo -e "5. BungeeCord MineCraft Server"
 					read -p 'Input Your Choice: ' i
 					if (($i == 1)); then
 						echo -e "Installing Offical MineCraft Server"
